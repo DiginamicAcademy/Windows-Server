@@ -19,5 +19,4 @@ course:
 
 credits:
   authors: ## signataires du cours, dans l'ordre où ils doivent apparaître
-    - name: Nicolas SAHUC
-      email: sahuc.nic@gmail.com
+    - name: "Nicolas SAHUC <sahuc.nic@gmail.com>"
