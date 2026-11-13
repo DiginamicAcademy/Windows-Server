@@ -1,0 +1,22 @@
+# Déclaration du cours, en deux sections. Vérifiée à chaque push qui la modifie
+# (workflow « Vérifier »).
+#
+# - course : ce que vise le cours. Recopiée à chaque version dans sa partie
+#   pédagogique, le dépôt privé <ce-dépôt>-Peda, où elle sert à produire
+#   RNCP.yaml et le syllabus.
+# - credits : qui signe le cours, et avec quels comptes GitHub. Reprise
+#   par le support de cours, elle reste dans ce dépôt.
+course:
+  name: "Windows Server et Active Directory"
+  RNCP:     ## TSSR (Technicien Supérieur Systèmes et Réseaux) et AIS (Administrateur d'Infrastructures Sécurisées)
+    - RNCP42463
+    - RNCP37680
+  RNCPBloc: ## TSSR bloc 2 (serveurs, accès en environnement hybride) ; AIS bloc 1 (infrastructures systèmes) et bloc 2 (utilisateurs, droits & GPO en PoC)
+    - RNCP42463BC02
+    - RNCP37680BC01
+    - RNCP37680BC02
+  timing: 3 ## durée prévue en jours
+
+credits:
+  authors: ## signataires du cours, dans l'ordre où ils doivent apparaître
+    - name: Nicolas SAHUC
